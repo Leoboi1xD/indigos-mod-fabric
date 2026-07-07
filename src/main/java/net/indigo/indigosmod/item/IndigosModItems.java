@@ -1,0 +1,28 @@
+package net.indigo.indigosmod.item;
+
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
+import net.indigo.indigosmod.IndigosMod;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.Item;
+
+import java.util.function.Function;
+
+public class IndigosModItems {
+
+    public static final Item EMERALD_SWORD = registerItem("emerald_sword", Item::new);
+
+    private static Item registerItem(String name, Function<Item.Properties, Item> function) {
+        return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(IndigosMod.MOD_ID, name),
+                function.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(IndigosMod.MOD_ID, name)))));
+    }
+
+    public static void registerIndigosModItems()
+    {
+        IndigosMod.LOGGER.info("Registering IndigosModItems");
+    }
+}

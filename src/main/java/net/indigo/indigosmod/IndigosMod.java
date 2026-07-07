@@ -2,6 +2,8 @@ package net.indigo.indigosmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.indigo.indigosmod.creativemodtab.IndigosModCreativeModeTabs;
+import net.indigo.indigosmod.item.IndigosModItems;
 import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
@@ -13,6 +15,8 @@ public class IndigosMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        IndigosModItems.registerIndigosModItems();
+        IndigosModCreativeModeTabs.registerIndigosModCreativeModeTabs();
 	}
 
 	public static Identifier id(String path) {
