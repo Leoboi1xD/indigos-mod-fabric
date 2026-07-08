@@ -14,12 +14,17 @@ import java.util.function.Function;
 
 public class IndigosModItems {
 
-    public static final Item EMERALD_SWORD = registerItem("emerald_sword", Item::new);
+    public static final Item EMERALD_SWORD = registerItem("emerald_sword", properties -> new Item(properties.sword(IndigosModToolMaterials.EMERALD, 3.0F, -2.4F)));
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(IndigosMod.MOD_ID, name),
                 function.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(IndigosMod.MOD_ID, name)))));
     }
+
+    public static ResourceKey<Item> getRK(Item item) {
+        return BuiltInRegistries.ITEM.getResourceKey(item).get();
+    }
+
 
     public static void registerIndigosModItems()
     {

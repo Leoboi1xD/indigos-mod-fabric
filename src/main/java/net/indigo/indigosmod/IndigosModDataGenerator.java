@@ -2,7 +2,10 @@ package net.indigo.indigosmod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.indigo.indigosmod.datagen.IndigosModBlockTagsProvider;
+import net.indigo.indigosmod.datagen.IndigosModItemTagsProvider;
 import net.indigo.indigosmod.datagen.IndigosModModelProvider;
+import net.indigo.indigosmod.datagen.IndigosModRecipeProvider;
 
 public class IndigosModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -10,5 +13,8 @@ public class IndigosModDataGenerator implements DataGeneratorEntrypoint {
         var pack = fabricDataGenerator.createPack();
 
         pack.addProvider(IndigosModModelProvider::new);
+        pack.addProvider(IndigosModRecipeProvider::new);
+        pack.addProvider(IndigosModBlockTagsProvider::new);
+        pack.addProvider(IndigosModItemTagsProvider::new);
 	}
 }
