@@ -13,7 +13,7 @@ import net.minecraft.world.item.ItemStack;
 public class IndigosModCreativeModeTabs {
     public static final CreativeModeTab INDIGOS_MOD_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(IndigosMod.MOD_ID, "indigos_mod_tab"),
-            FabricCreativeModeTab.builder().icon(()-> new ItemStack(IndigosModItems.EMERALD_SWORD)).title(Component.translatable("creativemodetab.indigos_mod_tab")).displayItems((parameters, output) -> {output.accept(IndigosModItems.EMERALD_SWORD);}).build());
+            FabricCreativeModeTab.builder().icon(()-> new ItemStack(IndigosModItems.EMERALD_SWORD)).title(Component.translatable("creativemodetab.indigos_mod_tab")).displayItems((parameters, output) -> {output.accept(IndigosModItems.EMERALD_SWORD);output.accept(IndigosModItems.EMERALD_PICKAXE);output.accept(IndigosModItems.EMERALD_SHOVEL);output.accept(IndigosModItems.EMERALD_AXE);output.accept(IndigosModItems.EMERALD_HOE);output.accept(IndigosModItems.EMERALD_SPEAR);}).build());
 
     public static void registerIndigosModCreativeModeTabs() {
         IndigosMod.LOGGER.info("Registering IndigosModCreativeModeTabs");

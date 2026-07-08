@@ -1,3 +1,14 @@
 // 26.2	-999999999-01-01T00:00:00	Indigo's Mod/Model Definitions
+2fe0ca2d32a4bac3f2c258a0ab7e6eef4c958685 assets/indigos-mod/items/emerald_axe.json
+2548f1c31ccdcce476f71a98f7f8a7a9e170796f assets/indigos-mod/items/emerald_hoe.json
+485573238c90583b06bc632327adc63abdbabace assets/indigos-mod/items/emerald_pickaxe.json
+d2a071ae97a8e3cb21ec913738af2c49345f66f4 assets/indigos-mod/items/emerald_shovel.json
+4188a7aab6ddfd5e6d5d6c61a2bc6fd3eb6c814a assets/indigos-mod/items/emerald_spear.json
 504cab8a072ff9c6bec35266587013e119a786f9 assets/indigos-mod/items/emerald_sword.json
+78c78de9a129d9056de25d4f03112bc1d89cfc39 assets/indigos-mod/models/item/emerald_axe.json
+5e159cc60c15ac17bebbe344ab809524b23914c0 assets/indigos-mod/models/item/emerald_hoe.json
+84e493a6689e0b3889410391114893c1774ea18f assets/indigos-mod/models/item/emerald_pickaxe.json
+5eefa7a38604d1515d35230598182c8f8c5e3c30 assets/indigos-mod/models/item/emerald_shovel.json
+c00693db6da3d0612e766922bbfda5a5e4c55626 assets/indigos-mod/models/item/emerald_spear.json
+745e8bb2065578753bfc009fd37c384b04cda85b assets/indigos-mod/models/item/emerald_spear_in_hand.json
 c93d41908c8190f825aadae2d03d2bff65d56ff3 assets/indigos-mod/models/item/emerald_sword.json

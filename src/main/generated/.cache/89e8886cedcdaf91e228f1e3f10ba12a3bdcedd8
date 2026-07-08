@@ -1,2 +1,7 @@
 // 26.2	-999999999-01-01T00:00:00	Indigo's Mod/Tags for minecraft:item
+7c74dcbe226ac71db49fa156b910d7257c4c24c9 data/minecraft/tags/item/axes.json
+d6f907a33d5c077f222c38598cbbaec2bf676748 data/minecraft/tags/item/hoes.json
+8969a43c1edecb9d99892f394ee31badfc594f80 data/minecraft/tags/item/pickaxes.json
+51f298a9abbd6f4018cc92240edf73ad538c568c data/minecraft/tags/item/shovels.json
+1a9048cc21b29c7a5326f0f01f2a1f4ed76173bb data/minecraft/tags/item/spears.json
 d641c14060ac6b1a33b694fe6c7d5e97b7fa5caf data/minecraft/tags/item/swords.json

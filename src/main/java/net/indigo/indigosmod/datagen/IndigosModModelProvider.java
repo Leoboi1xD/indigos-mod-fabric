@@ -20,5 +20,10 @@ public class IndigosModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         itemModelGenerators.generateFlatItem(IndigosModItems.EMERALD_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(IndigosModItems.EMERALD_PICKAXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(IndigosModItems.EMERALD_SHOVEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(IndigosModItems.EMERALD_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(IndigosModItems.EMERALD_HOE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateSpear(IndigosModItems.EMERALD_SPEAR);
     }
 }

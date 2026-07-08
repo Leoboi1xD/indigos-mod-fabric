@@ -7,14 +7,18 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 
 import java.util.function.Function;
 
 public class IndigosModItems {
 
     public static final Item EMERALD_SWORD = registerItem("emerald_sword", properties -> new Item(properties.sword(IndigosModToolMaterials.EMERALD, 3.0F, -2.4F)));
+    public static final Item EMERALD_PICKAXE = registerItem("emerald_pickaxe", properties -> new Item(properties.pickaxe(IndigosModToolMaterials.EMERALD, 1.0F, -2.8F)));
+    public static final Item EMERALD_SHOVEL = registerItem("emerald_shovel", properties -> new ShovelItem(IndigosModToolMaterials.EMERALD, 1.5F, -3.0F, properties));
+    public static final Item EMERALD_AXE = registerItem("emerald_axe", properties -> new AxeItem(IndigosModToolMaterials.EMERALD, 6.0F, -3.0F, properties));
+    public static final Item EMERALD_HOE = registerItem("emerald_hoe", properties -> new HoeItem(IndigosModToolMaterials.EMERALD, -2.0F, -1.0F, properties));
+    public static final Item EMERALD_SPEAR = registerItem("emerald_spear", properties -> new Item(properties.spear(IndigosModToolMaterials.EMERALD,1.0F, 1.0F, 0.5F, 3.0F, 11.0F, 6.5F, 5.1F, 10.0F, 4.6F)));
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(IndigosMod.MOD_ID, name),

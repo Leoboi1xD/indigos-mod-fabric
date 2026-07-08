@@ -34,6 +34,57 @@ public class IndigosModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                         .group("emerald")
                         .save(output);
+
+                shaped(RecipeCategory.TOOLS, IndigosModItems.EMERALD_PICKAXE)
+                        .pattern("AAA")
+                        .pattern(" B ")
+                        .pattern(" B ")
+                        .define('A', Items.EMERALD)
+                        .define('B', Items.STICK)
+                        .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                        .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                        .group("emerald")
+                        .save(output);
+                shaped(RecipeCategory.TOOLS, IndigosModItems.EMERALD_SHOVEL)
+                        .pattern("A")
+                        .pattern("B")
+                        .pattern("B")
+                        .define('A', Items.EMERALD)
+                        .define('B', Items.STICK)
+                        .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                        .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                        .group("emerald")
+                        .save(output);
+                shaped(RecipeCategory.TOOLS, IndigosModItems.EMERALD_AXE)
+                        .pattern("AA")
+                        .pattern("AB")
+                        .pattern(" B")
+                        .define('A', Items.EMERALD)
+                        .define('B', Items.STICK)
+                        .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                        .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                        .group("emerald")
+                        .save(output);
+                shaped(RecipeCategory.TOOLS, IndigosModItems.EMERALD_HOE)
+                        .pattern("AA")
+                        .pattern(" B")
+                        .pattern(" B")
+                        .define('A', Items.EMERALD)
+                        .define('B', Items.STICK)
+                        .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                        .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                        .group("emerald")
+                        .save(output);
+                shaped(RecipeCategory.COMBAT, IndigosModItems.EMERALD_SPEAR)
+                        .pattern("  A")
+                        .pattern(" B ")
+                        .pattern("B  ")
+                        .define('A', Items.EMERALD)
+                        .define('B', Items.STICK)
+                        .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                        .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                        .group("fluorite")
+                        .save(output);
             }
         };
     }

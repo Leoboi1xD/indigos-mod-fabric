@@ -16,5 +16,10 @@ public class IndigosModItemTagsProvider extends FabricTagsProvider.ItemTagsProvi
     @Override
     protected void addTags(HolderLookup.Provider registries) {
     tag(ItemTags.SWORDS).add(IndigosModItems.getRK(IndigosModItems.EMERALD_SWORD));
+    tag(ItemTags.PICKAXES).add(IndigosModItems.getRK(IndigosModItems.EMERALD_PICKAXE));
+    tag(ItemTags.SHOVELS).add(IndigosModItems.getRK(IndigosModItems.EMERALD_SHOVEL));
+    tag(ItemTags.AXES).add(IndigosModItems.getRK(IndigosModItems.EMERALD_AXE));
+    tag(ItemTags.HOES).add(IndigosModItems.getRK(IndigosModItems.EMERALD_HOE));
+    tag(ItemTags.SPEARS).add(IndigosModItems.getRK(IndigosModItems.EMERALD_SPEAR));
     }
 }
