@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "emerald",
+  "key": {
+    "A": "minecraft:emerald"
+  },
+  "pattern": [
+    "   ",
+    "A A",
+    "A A"
+  ],
+  "result": {
+    "id": "indigos-mod:emerald_boots"
+  }
+}

@@ -8,6 +8,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.*;
+import net.minecraft.world.item.equipment.ArmorType;
 
 import java.util.function.Function;
 
@@ -19,6 +20,11 @@ public class IndigosModItems {
     public static final Item EMERALD_AXE = registerItem("emerald_axe", properties -> new AxeItem(IndigosModToolMaterials.EMERALD, 6.0F, -3.0F, properties));
     public static final Item EMERALD_HOE = registerItem("emerald_hoe", properties -> new HoeItem(IndigosModToolMaterials.EMERALD, -2.0F, -1.0F, properties));
     public static final Item EMERALD_SPEAR = registerItem("emerald_spear", properties -> new Item(properties.spear(IndigosModToolMaterials.EMERALD,1.0F, 1.0F, 0.5F, 3.0F, 11.0F, 6.5F, 5.1F, 10.0F, 4.6F)));
+    public static final Item EMERALD_HELMET = registerItem("emerald_helmet", properties -> new Item(properties.humanoidArmor(IndigosModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorType.HELMET)));
+    public static final Item EMERALD_CHESTPLATE = registerItem("emerald_chestplate", properties -> new Item(properties.humanoidArmor(IndigosModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+    public static final Item EMERALD_LEGGINGS = registerItem("emerald_leggings", properties -> new Item(properties.humanoidArmor(IndigosModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
+    public static final Item EMERALD_BOOTS = registerItem("emerald_boots", properties -> new Item(properties.humanoidArmor(IndigosModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorType.BOOTS)));
+
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(IndigosMod.MOD_ID, name),

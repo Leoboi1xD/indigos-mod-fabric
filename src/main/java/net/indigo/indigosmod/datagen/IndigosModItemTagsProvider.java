@@ -21,5 +21,9 @@ public class IndigosModItemTagsProvider extends FabricTagsProvider.ItemTagsProvi
     tag(ItemTags.AXES).add(IndigosModItems.getRK(IndigosModItems.EMERALD_AXE));
     tag(ItemTags.HOES).add(IndigosModItems.getRK(IndigosModItems.EMERALD_HOE));
     tag(ItemTags.SPEARS).add(IndigosModItems.getRK(IndigosModItems.EMERALD_SPEAR));
+    tag(ItemTags.HEAD_ARMOR).add(IndigosModItems.getRK(IndigosModItems.EMERALD_HELMET));
+    tag(ItemTags.CHEST_ARMOR).add(IndigosModItems.getRK(IndigosModItems.EMERALD_CHESTPLATE));
+    tag(ItemTags.LEG_ARMOR).add(IndigosModItems.getRK(IndigosModItems.EMERALD_LEGGINGS));
+    tag(ItemTags.FOOT_ARMOR).add(IndigosModItems.getRK(IndigosModItems.EMERALD_BOOTS));
     }
 }

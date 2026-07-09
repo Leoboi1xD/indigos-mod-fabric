@@ -5,5 +5,9 @@
   "item.indigos-mod.emerald_axe": "Emerald Axe",
   "item.indigos-mod.emerald_hoe": "Emerald Hoe",
   "item.indigos-mod.emerald_spear": "Emerald Spear",
-  "creativemodetab.indigos_mod_tab": "Indigo's Mod Tab"
+  "item.indigos-mod.emerald_helmet": "Emerald Helmet",
+  "item.indigos-mod.emerald_chestplate": "Emerald Chestplate",
+  "item.indigos-mod.emerald_leggings": "Emerald Leggings",
+  "item.indigos-mod.emerald_boots": "Emerald Boots",
+  "creativemodetab.indigos_mod_tab": "Indigo's Mod"
 }

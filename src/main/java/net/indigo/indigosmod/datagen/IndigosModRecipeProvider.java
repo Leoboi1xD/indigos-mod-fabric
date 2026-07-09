@@ -83,7 +83,39 @@ public class IndigosModRecipeProvider extends FabricRecipeProvider {
                         .define('B', Items.STICK)
                         .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
                         .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
-                        .group("fluorite")
+                        .group("emerald")
+                        .save(output);
+                shaped(RecipeCategory.COMBAT, IndigosModItems.EMERALD_HELMET)
+                        .pattern("AAA")
+                        .pattern("A A")
+                        .pattern("   ")
+                        .define('A', Items.EMERALD)
+                        .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                        .group("emerald")
+                        .save(output);
+                shaped(RecipeCategory.COMBAT, IndigosModItems.EMERALD_CHESTPLATE)
+                        .pattern("A A")
+                        .pattern("AAA")
+                        .pattern("AAA")
+                        .define('A', Items.EMERALD)
+                        .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                        .group("emerald")
+                        .save(output);
+                shaped(RecipeCategory.COMBAT, IndigosModItems.EMERALD_LEGGINGS)
+                        .pattern("AAA")
+                        .pattern("A A")
+                        .pattern("A A")
+                        .define('A', Items.EMERALD)
+                        .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                        .group("emerald")
+                        .save(output);
+                shaped(RecipeCategory.COMBAT, IndigosModItems.EMERALD_BOOTS)
+                        .pattern("   ")
+                        .pattern("A A")
+                        .pattern("A A")
+                        .define('A', Items.EMERALD)
+                        .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                        .group("emerald")
                         .save(output);
             }
         };

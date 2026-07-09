@@ -1,4 +1,8 @@
 // 26.2	-999999999-01-01T00:00:00	Indigo's Mod/IndigosMod Recipes
+99c51350511e4336dda914c86d18c782f73d8630 data/indigos-mod/advancement/recipes/combat/emerald_boots.json
+da2ae9dac7ea405e25d1758d79a03e584d09c32b data/indigos-mod/advancement/recipes/combat/emerald_chestplate.json
+0b1fde848b59b3e3060afbeeae7c8996ca7139dc data/indigos-mod/advancement/recipes/combat/emerald_helmet.json
+c0ec71f2085965b4fbabc17c06f1662b658a764f data/indigos-mod/advancement/recipes/combat/emerald_leggings.json
 424127a46f1799bab9861c41aebc999246473047 data/indigos-mod/advancement/recipes/combat/emerald_spear.json
 8f758ad0caa822b7c9dc05978b277b0f4898c716 data/indigos-mod/advancement/recipes/combat/emerald_sword.json
 5aa1699e70b431aa95bd9cd657c6d2202f9b6a0e data/indigos-mod/advancement/recipes/tools/emerald_axe.json
@@ -6,8 +10,12 @@ cb681d8df94e5668ed4b8ab8b4b09e20b2fcb5d4 data/indigos-mod/advancement/recipes/to
 323394e19d09b76770a912fd7631b45559105e6c data/indigos-mod/advancement/recipes/tools/emerald_pickaxe.json
 39280fb33c6c1af7b401bea580bede62ccb57fdc data/indigos-mod/advancement/recipes/tools/emerald_shovel.json
 927a42fbf943d67af80a78f06b18ec7ce264ecfe data/indigos-mod/recipe/emerald_axe.json
+b486745635beaad32942caa280bf4da1278ac7bf data/indigos-mod/recipe/emerald_boots.json
+4e18ae8cdbde97c77469217cf6136e8c6174d423 data/indigos-mod/recipe/emerald_chestplate.json
+4d524959ca2ce55c0f65edd08d86bd32845eb935 data/indigos-mod/recipe/emerald_helmet.json
 5a92fdcabbbb7fab1f3494d5e8e6ce6b7c4b11e2 data/indigos-mod/recipe/emerald_hoe.json
+aa07fbd1ca09acd0b13c658717c470e9a49f90b6 data/indigos-mod/recipe/emerald_leggings.json
 67f626c92c55b03bf7a4fbe9443dc515ba3a4336 data/indigos-mod/recipe/emerald_pickaxe.json
 b684f078db3b73573f3b93b475d4f1fd132b9d3a data/indigos-mod/recipe/emerald_shovel.json
-1c79db8ab183d4ef59366c6388da32757960dbd0 data/indigos-mod/recipe/emerald_spear.json
+120d65beeffc92a3bc8b49b59f87efd722ce15f4 data/indigos-mod/recipe/emerald_spear.json
 72de0d4979bbde4a3f6857af116040acf3afb900 data/indigos-mod/recipe/emerald_sword.json

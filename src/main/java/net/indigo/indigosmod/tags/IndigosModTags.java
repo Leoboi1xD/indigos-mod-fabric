@@ -20,7 +20,7 @@ public class IndigosModTags {
 
 
     public static class Items {
-        public static final TagKey<Item> EMERALD_TOOL_MATERIALS = createTag("emerald_repair");
+        public static final TagKey<Item> EMERALD_TOOL_REPAIR = createTag("emerald_repair");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(IndigosMod.MOD_ID, name));

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
-  "group": "fluorite",
+  "group": "emerald",
   "key": {
     "A": "minecraft:emerald",
     "B": "minecraft:stick"

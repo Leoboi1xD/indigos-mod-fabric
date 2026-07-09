@@ -1,6 +1,10 @@
 // 26.2	-999999999-01-01T00:00:00	Indigo's Mod/Tags for minecraft:item
 7c74dcbe226ac71db49fa156b910d7257c4c24c9 data/minecraft/tags/item/axes.json
+6a08a2330050ac476b50be012873075a6a02c68a data/minecraft/tags/item/chest_armor.json
+c41b23925f2a28e8734991a6fb802d2963520d31 data/minecraft/tags/item/foot_armor.json
+56fc68c713f3b48cfafdbcb906e1a7e116b1acc6 data/minecraft/tags/item/head_armor.json
 d6f907a33d5c077f222c38598cbbaec2bf676748 data/minecraft/tags/item/hoes.json
+46154347980c87f70c78744cba66acd44d8d190b data/minecraft/tags/item/leg_armor.json
 8969a43c1edecb9d99892f394ee31badfc594f80 data/minecraft/tags/item/pickaxes.json
 51f298a9abbd6f4018cc92240edf73ad538c568c data/minecraft/tags/item/shovels.json
 1a9048cc21b29c7a5326f0f01f2a1f4ed76173bb data/minecraft/tags/item/spears.json

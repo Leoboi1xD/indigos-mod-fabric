@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "indigos-mod:emerald"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "indigos-mod:emerald"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "indigos-mod:emerald"
+      }
+    ]
+  }
+}
