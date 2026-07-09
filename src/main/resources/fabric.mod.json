@@ -1,15 +1,14 @@
 {
 	"schemaVersion": 1,
 	"id": "indigos-mod",
-	"version": "${version}",
+	"version": "0.2.2",
 	"name": "Indigo's Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This Mod is a passion project started on new years, this mod aims to add what is missing from the main game in my opinion!",
 	"authors": [
-		"Me!"
+		"Indigo227"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Leoboi1xD/indigos-mod-fabric"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/indigos-mod/icon.png",
