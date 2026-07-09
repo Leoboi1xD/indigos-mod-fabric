@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "indigos-mod:item/emerald_nautilus_armor"
+  }
+}

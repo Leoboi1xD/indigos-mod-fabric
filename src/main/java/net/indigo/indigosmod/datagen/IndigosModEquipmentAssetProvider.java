@@ -24,7 +24,7 @@ public class IndigosModEquipmentAssetProvider implements DataProvider {
     }
 
     private static void bootstrap(BiConsumer<ResourceKey<EquipmentAsset>, EquipmentClientInfo> consumer) {
-        consumer.accept(IndigosModArmorMaterials.EMERALD_KEY, EquipmentClientInfo.builder().addHumanoidLayers(Identifier.fromNamespaceAndPath(IndigosMod.MOD_ID, "emerald")).build());
+        consumer.accept(IndigosModArmorMaterials.EMERALD_KEY, EquipmentClientInfo.builder().addHumanoidLayers(Identifier.fromNamespaceAndPath(IndigosMod.MOD_ID, "emerald")).addLayers(EquipmentClientInfo.LayerType.HORSE_BODY, new EquipmentClientInfo.Layer(Identifier.fromNamespaceAndPath(IndigosMod.MOD_ID, "emerald"))).addLayers(EquipmentClientInfo.LayerType.NAUTILUS_BODY, new EquipmentClientInfo.Layer(Identifier.fromNamespaceAndPath(IndigosMod.MOD_ID, "emerald"))).build());
     }
 
     @Override

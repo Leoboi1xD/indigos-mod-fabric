@@ -1,5 +1,10 @@
 {
   "layers": {
+    "horse_body": [
+      {
+        "texture": "indigos-mod:emerald"
+      }
+    ],
     "humanoid": [
       {
         "texture": "indigos-mod:emerald"
@@ -11,6 +16,11 @@
       }
     ],
     "humanoid_leggings": [
+      {
+        "texture": "indigos-mod:emerald"
+      }
+    ],
+    "nautilus_body": [
       {
         "texture": "indigos-mod:emerald"
       }

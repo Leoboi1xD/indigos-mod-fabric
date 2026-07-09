@@ -24,6 +24,8 @@ public class IndigosModItems {
     public static final Item EMERALD_CHESTPLATE = registerItem("emerald_chestplate", properties -> new Item(properties.humanoidArmor(IndigosModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
     public static final Item EMERALD_LEGGINGS = registerItem("emerald_leggings", properties -> new Item(properties.humanoidArmor(IndigosModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
     public static final Item EMERALD_BOOTS = registerItem("emerald_boots", properties -> new Item(properties.humanoidArmor(IndigosModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorType.BOOTS)));
+    public static final Item EMERALD_HORSE_ARMOR = registerItem("emerald_horse_armor", properties -> new Item(properties.horseArmor(IndigosModArmorMaterials.EMERALD_ARMOR_MATERIAL)));
+    public static final Item EMERALD_NAUTILUS_ARMOR = registerItem("emerald_nautilus_armor", properties -> new Item(properties.nautilusArmor(IndigosModArmorMaterials.EMERALD_ARMOR_MATERIAL)));
 
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
