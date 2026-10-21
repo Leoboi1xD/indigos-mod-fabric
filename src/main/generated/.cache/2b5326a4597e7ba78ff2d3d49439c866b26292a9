@@ -1,4 +1,5 @@
 // 26.2	-999999999-01-01T00:00:00	Indigo's Mod/IndigosMod Recipes
+e5bd2e3f91c75af8ce04b0c5a63018487337bc9b data/indigos-mod/advancement/recipes/combat/amethyst_sword.json
 99c51350511e4336dda914c86d18c782f73d8630 data/indigos-mod/advancement/recipes/combat/emerald_boots.json
 da2ae9dac7ea405e25d1758d79a03e584d09c32b data/indigos-mod/advancement/recipes/combat/emerald_chestplate.json
 0b1fde848b59b3e3060afbeeae7c8996ca7139dc data/indigos-mod/advancement/recipes/combat/emerald_helmet.json
@@ -9,6 +10,7 @@ c0ec71f2085965b4fbabc17c06f1662b658a764f data/indigos-mod/advancement/recipes/co
 cb681d8df94e5668ed4b8ab8b4b09e20b2fcb5d4 data/indigos-mod/advancement/recipes/tools/emerald_hoe.json
 323394e19d09b76770a912fd7631b45559105e6c data/indigos-mod/advancement/recipes/tools/emerald_pickaxe.json
 39280fb33c6c1af7b401bea580bede62ccb57fdc data/indigos-mod/advancement/recipes/tools/emerald_shovel.json
+b5a747b4e92abe769fee300f196a9585f6c0118f data/indigos-mod/recipe/amethyst_sword.json
 927a42fbf943d67af80a78f06b18ec7ce264ecfe data/indigos-mod/recipe/emerald_axe.json
 b486745635beaad32942caa280bf4da1278ac7bf data/indigos-mod/recipe/emerald_boots.json
 4e18ae8cdbde97c77469217cf6136e8c6174d423 data/indigos-mod/recipe/emerald_chestplate.json

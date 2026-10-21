@@ -32,5 +32,6 @@ public class IndigosModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateTrimmableItem(IndigosModItems.EMERALD_BOOTS, IndigosModArmorMaterials.EMERALD_KEY, ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
         itemModelGenerators.generateFlatItem(IndigosModItems.EMERALD_HORSE_ARMOR, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(IndigosModItems.EMERALD_NAUTILUS_ARMOR, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(IndigosModItems.AMETHYST_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
     }
 }

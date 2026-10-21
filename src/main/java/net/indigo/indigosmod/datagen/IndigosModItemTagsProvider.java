@@ -25,5 +25,6 @@ public class IndigosModItemTagsProvider extends FabricTagsProvider.ItemTagsProvi
     tag(ItemTags.CHEST_ARMOR).add(IndigosModItems.getRK(IndigosModItems.EMERALD_CHESTPLATE));
     tag(ItemTags.LEG_ARMOR).add(IndigosModItems.getRK(IndigosModItems.EMERALD_LEGGINGS));
     tag(ItemTags.FOOT_ARMOR).add(IndigosModItems.getRK(IndigosModItems.EMERALD_BOOTS));
+    tag(ItemTags.SWORDS).add(IndigosModItems.getRK(IndigosModItems.AMETHYST_SWORD));
     }
 }

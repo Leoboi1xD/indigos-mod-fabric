@@ -26,6 +26,7 @@ public class IndigosModItems {
     public static final Item EMERALD_BOOTS = registerItem("emerald_boots", properties -> new Item(properties.humanoidArmor(IndigosModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorType.BOOTS)));
     public static final Item EMERALD_HORSE_ARMOR = registerItem("emerald_horse_armor", properties -> new Item(properties.horseArmor(IndigosModArmorMaterials.EMERALD_ARMOR_MATERIAL)));
     public static final Item EMERALD_NAUTILUS_ARMOR = registerItem("emerald_nautilus_armor", properties -> new Item(properties.nautilusArmor(IndigosModArmorMaterials.EMERALD_ARMOR_MATERIAL)));
+    public static final Item AMETHYST_SWORD = registerItem("amethyst_sword", properties -> new Item(properties.sword(IndigosModToolMaterials.AMETHYST, 3.0F, -2.4F)));
 
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {

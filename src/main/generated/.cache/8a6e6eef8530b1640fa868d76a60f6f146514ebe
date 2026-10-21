@@ -1,4 +1,5 @@
 // 26.2	-999999999-01-01T00:00:00	Indigo's Mod/Model Definitions
+24e6cc93cd047627c4db19073af87b5142189932 assets/indigos-mod/items/amethyst_sword.json
 2fe0ca2d32a4bac3f2c258a0ab7e6eef4c958685 assets/indigos-mod/items/emerald_axe.json
 57cc285eb4fd11e4c5d0905354f114be1dff3e69 assets/indigos-mod/items/emerald_boots.json
 a8f79d8e2e4e608283d49fc88065f27003c0bbb0 assets/indigos-mod/items/emerald_chestplate.json
@@ -11,6 +12,7 @@ c24833a548f3f9158f87bce01d36f8cf9a59dc2a assets/indigos-mod/items/emerald_horse_
 d2a071ae97a8e3cb21ec913738af2c49345f66f4 assets/indigos-mod/items/emerald_shovel.json
 4188a7aab6ddfd5e6d5d6c61a2bc6fd3eb6c814a assets/indigos-mod/items/emerald_spear.json
 504cab8a072ff9c6bec35266587013e119a786f9 assets/indigos-mod/items/emerald_sword.json
+0c6ab1d0248a71f65c5b712306d940d990e60b9f assets/indigos-mod/models/item/amethyst_sword.json
 78c78de9a129d9056de25d4f03112bc1d89cfc39 assets/indigos-mod/models/item/emerald_axe.json
 65c06ac67f90254b4644cd7d077579d90040a022 assets/indigos-mod/models/item/emerald_boots.json
 f10b01a1bb7dd0df5f8c2ec41087674058ab8c90 assets/indigos-mod/models/item/emerald_boots_amethyst_trim.json
