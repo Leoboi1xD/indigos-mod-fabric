@@ -34,7 +34,6 @@ public class IndigosModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                         .group("emerald")
                         .save(output);
-
                 shaped(RecipeCategory.TOOLS, IndigosModItems.EMERALD_PICKAXE)
                         .pattern("AAA")
                         .pattern(" B ")
@@ -121,6 +120,16 @@ public class IndigosModRecipeProvider extends FabricRecipeProvider {
                         .pattern("A")
                         .pattern("A")
                         .pattern("B")
+                        .define('A', Items.AMETHYST_SHARD)
+                        .define('B', Items.STICK)
+                        .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
+                        .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                        .group("emerald")
+                        .save(output);
+                shaped(RecipeCategory.TOOLS, IndigosModItems.AMETHYST_PICKAXE)
+                        .pattern("AAA")
+                        .pattern(" B ")
+                        .pattern(" B ")
                         .define('A', Items.AMETHYST_SHARD)
                         .define('B', Items.STICK)
                         .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))

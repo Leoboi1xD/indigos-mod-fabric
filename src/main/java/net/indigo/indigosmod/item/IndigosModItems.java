@@ -14,6 +14,7 @@ import java.util.function.Function;
 
 public class IndigosModItems {
 
+    public static final Item STUB_ICON = registerItem("stub_icon", Item::new);
     public static final Item EMERALD_SWORD = registerItem("emerald_sword", properties -> new Item(properties.sword(IndigosModToolMaterials.EMERALD, 3.0F, -2.4F)));
     public static final Item EMERALD_PICKAXE = registerItem("emerald_pickaxe", properties -> new Item(properties.pickaxe(IndigosModToolMaterials.EMERALD, 1.0F, -2.8F)));
     public static final Item EMERALD_SHOVEL = registerItem("emerald_shovel", properties -> new ShovelItem(IndigosModToolMaterials.EMERALD, 1.5F, -3.0F, properties));
@@ -27,6 +28,8 @@ public class IndigosModItems {
     public static final Item EMERALD_HORSE_ARMOR = registerItem("emerald_horse_armor", properties -> new Item(properties.horseArmor(IndigosModArmorMaterials.EMERALD_ARMOR_MATERIAL)));
     public static final Item EMERALD_NAUTILUS_ARMOR = registerItem("emerald_nautilus_armor", properties -> new Item(properties.nautilusArmor(IndigosModArmorMaterials.EMERALD_ARMOR_MATERIAL)));
     public static final Item AMETHYST_SWORD = registerItem("amethyst_sword", properties -> new Item(properties.sword(IndigosModToolMaterials.AMETHYST, 3.0F, -2.4F)));
+    public static final Item AMETHYST_PICKAXE = registerItem("amethyst_pickaxe", properties -> new Item(properties.pickaxe(IndigosModToolMaterials.AMETHYST, 1.5F, -2.8F)));
+
 
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {

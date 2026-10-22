@@ -20,6 +20,7 @@ public class IndigosModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
+        itemModelGenerators.generateFlatItem(IndigosModItems.STUB_ICON, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(IndigosModItems.EMERALD_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(IndigosModItems.EMERALD_PICKAXE, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(IndigosModItems.EMERALD_SHOVEL, ModelTemplates.FLAT_HANDHELD_ITEM);
@@ -33,5 +34,6 @@ public class IndigosModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(IndigosModItems.EMERALD_HORSE_ARMOR, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(IndigosModItems.EMERALD_NAUTILUS_ARMOR, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(IndigosModItems.AMETHYST_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(IndigosModItems.AMETHYST_PICKAXE, ModelTemplates.FLAT_HANDHELD_ITEM);
     }
 }
