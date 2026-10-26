@@ -29,7 +29,7 @@ public class IndigosModItems {
     public static final Item EMERALD_NAUTILUS_ARMOR = registerItem("emerald_nautilus_armor", properties -> new Item(properties.nautilusArmor(IndigosModArmorMaterials.EMERALD_ARMOR_MATERIAL)));
     public static final Item AMETHYST_SWORD = registerItem("amethyst_sword", properties -> new Item(properties.sword(IndigosModToolMaterials.AMETHYST, 3.0F, -2.4F)));
     public static final Item AMETHYST_PICKAXE = registerItem("amethyst_pickaxe", properties -> new Item(properties.pickaxe(IndigosModToolMaterials.AMETHYST, 1.5F, -2.8F)));
-
+    public static final Item AMETHYST_AXE = registerItem("amethyst_axe", properties -> new AxeItem(IndigosModToolMaterials.AMETHYST, 6.0F, -3.0F, properties));
 
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {

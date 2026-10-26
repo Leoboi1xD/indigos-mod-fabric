@@ -6,11 +6,13 @@ da2ae9dac7ea405e25d1758d79a03e584d09c32b data/indigos-mod/advancement/recipes/co
 c0ec71f2085965b4fbabc17c06f1662b658a764f data/indigos-mod/advancement/recipes/combat/emerald_leggings.json
 424127a46f1799bab9861c41aebc999246473047 data/indigos-mod/advancement/recipes/combat/emerald_spear.json
 8f758ad0caa822b7c9dc05978b277b0f4898c716 data/indigos-mod/advancement/recipes/combat/emerald_sword.json
+22ede794630dda4b4e7bfed77b73c450502d2a7c data/indigos-mod/advancement/recipes/tools/amethyst_axe.json
 69116d220040cf29b479c870194b5ad267393e0d data/indigos-mod/advancement/recipes/tools/amethyst_pickaxe.json
 5aa1699e70b431aa95bd9cd657c6d2202f9b6a0e data/indigos-mod/advancement/recipes/tools/emerald_axe.json
 cb681d8df94e5668ed4b8ab8b4b09e20b2fcb5d4 data/indigos-mod/advancement/recipes/tools/emerald_hoe.json
 323394e19d09b76770a912fd7631b45559105e6c data/indigos-mod/advancement/recipes/tools/emerald_pickaxe.json
 39280fb33c6c1af7b401bea580bede62ccb57fdc data/indigos-mod/advancement/recipes/tools/emerald_shovel.json
+883b7cd215230d08afca2b9272e4f216ad50cc00 data/indigos-mod/recipe/amethyst_axe.json
 2d2c12ac3641510096be633f01eccc407356ee50 data/indigos-mod/recipe/amethyst_pickaxe.json
 b5a747b4e92abe769fee300f196a9585f6c0118f data/indigos-mod/recipe/amethyst_sword.json
 927a42fbf943d67af80a78f06b18ec7ce264ecfe data/indigos-mod/recipe/emerald_axe.json

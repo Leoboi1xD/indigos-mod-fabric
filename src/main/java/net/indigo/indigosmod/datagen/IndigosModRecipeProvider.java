@@ -136,6 +136,16 @@ public class IndigosModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                         .group("emerald")
                         .save(output);
+                shaped(RecipeCategory.TOOLS, IndigosModItems.AMETHYST_AXE)
+                        .pattern("AA")
+                        .pattern("AB")
+                        .pattern(" B")
+                        .define('A', Items.AMETHYST_SHARD)
+                        .define('B', Items.STICK)
+                        .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
+                        .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                        .group("emerald")
+                        .save(output);
             }
         };
     }

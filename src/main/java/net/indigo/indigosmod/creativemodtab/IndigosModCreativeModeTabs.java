@@ -28,6 +28,7 @@ public class IndigosModCreativeModeTabs {
                 output.accept(IndigosModItems.EMERALD_NAUTILUS_ARMOR);
                 output.accept(IndigosModItems.AMETHYST_SWORD);
                 output.accept(IndigosModItems.AMETHYST_PICKAXE);
+                output.accept(IndigosModItems.AMETHYST_AXE);
             }).build());
 
     public static void registerIndigosModCreativeModeTabs() {

@@ -26,6 +26,7 @@ public class IndigosModItemTagsProvider extends FabricTagsProvider.ItemTagsProvi
     tag(ItemTags.LEG_ARMOR).add(IndigosModItems.getRK(IndigosModItems.EMERALD_LEGGINGS));
     tag(ItemTags.FOOT_ARMOR).add(IndigosModItems.getRK(IndigosModItems.EMERALD_BOOTS));
     tag(ItemTags.SWORDS).add(IndigosModItems.getRK(IndigosModItems.AMETHYST_SWORD));
-    tag(ItemTags.PICKAXES).add(IndigosModItems.getRK(IndigosModItems.AMETHYST_PICKAXE));
+        tag(ItemTags.PICKAXES).add(IndigosModItems.getRK(IndigosModItems.AMETHYST_PICKAXE));
+    tag(ItemTags.AXES).add(IndigosModItems.getRK(IndigosModItems.AMETHYST_AXE));
     }
 }

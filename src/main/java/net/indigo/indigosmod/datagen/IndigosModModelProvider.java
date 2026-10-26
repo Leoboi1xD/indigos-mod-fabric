@@ -35,5 +35,6 @@ public class IndigosModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(IndigosModItems.EMERALD_NAUTILUS_ARMOR, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(IndigosModItems.AMETHYST_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(IndigosModItems.AMETHYST_PICKAXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(IndigosModItems.AMETHYST_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
     }
 }
